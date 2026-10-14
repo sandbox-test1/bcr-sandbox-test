@@ -1,0 +1,5 @@
+# Mirrors bazel-central-registry's real CODEOWNERS:
+# everything owned by the team EXCEPT modules/, intentionally unowned
+# (that's where bcr-pr-reviewer's bot self-approval is supposed to apply).
+*            @sandbox-test1/maintainers
+/modules/
